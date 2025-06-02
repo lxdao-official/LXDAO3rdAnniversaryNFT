@@ -13,7 +13,7 @@ contract LXDAO3rdAnniversaryNFT is ERC721, Ownable {
     using Strings for uint256;
 
     // Minting period: end in June 16, 2025 00:00 UTC+8
-    uint256 public constant MINT_END_TIME = 1750032000; // June 16, 2025, 00:00 UTC+8
+    uint256 public constant MINT_END_TIME = 1750003200; // June 16, 2025, 00:00 UTC+8
 
     // Fixed metadata URI
     string public constant TOKEN_URI =
